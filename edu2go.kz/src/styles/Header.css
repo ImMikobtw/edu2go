@@ -1,0 +1,52 @@
+.mainHeader {
+    margin: 0 30px 0 120px;
+    padding: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    gap: 40px;
+}
+
+.headerElements {
+    margin: 16px 0 0 150px;
+}
+
+
+.headerButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: large;
+}
+
+.headerLine {
+    margin: 0;
+    padding: 0;
+}
+
+.headerLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.authElements {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 0 40px;
+    padding: 0;
+    gap: 25px;
+}
+
+.authElements a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.headerLogo {
+    margin: 12px 0 0 0;
+    padding: 0;
+    position: static;
+}
