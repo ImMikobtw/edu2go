@@ -1,0 +1,40 @@
+.dropdownMenu {
+    position: relative;
+  }
+  
+  .dropdownButton {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .dropdownButton:hover {
+    color: #007bff;
+  }
+  
+  .dropdownContent {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdownContent li {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .dropdownContent li:hover {
+    background: #f0f0f0;
+  }
+  
