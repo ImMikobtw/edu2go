@@ -14,7 +14,7 @@ export function Header() {
 
   return (
     <header className="mainHeader">
-      {/* <h1 className="headerTitle">Edu2Go</h1>  Текстовое лого временно закомментировано */}
+      {/* <h1 className="headerTitle">Edu2Go</h1>  пока что лого не нравится */}
       
       {/* <img 
         src={logo} 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion"; // Импортируем анимацию
+import { motion } from "framer-motion";
 import "../styles/DropdownMenu.css";
 
 export function DropdownMenu({ title, items, isOpen, onToggle }) {
