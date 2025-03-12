@@ -1,0 +1,57 @@
+.reviewsSlider {
+    width: 90%;
+    max-width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.reviewSlide {
+    padding: 20px;
+}
+
+.reviewText {
+    font-size: 18px;
+    font-style: italic;
+    color: #444;
+}
+
+.reviewAuthor {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #222;
+}
+
+.reviewsDots {
+    margin-top: 15px;
+}
+
+.dot {
+    font-size: 18px;
+    color: #bbb;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.dot.active {
+    color: #007bff;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+}
+
+.reviewAvatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
