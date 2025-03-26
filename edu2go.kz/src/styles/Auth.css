@@ -1,0 +1,116 @@
+.authContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+  }
+  
+  .authBox {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .authTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #222;
+  }
+  
+  .authForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .formGroup input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .formGroup input:focus {
+    border-color: #007bff;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .authButton {
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .authButton:hover {
+    background: #0056b3;
+  }
+  
+  .authButton:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .authSwitch {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .switchButton {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: color 0.3s;
+  }
+  
+  .switchButton:hover {
+    color: #0056b3;
+  }
+  
+  @media (max-width: 480px) {
+    .authBox {
+      max-width: 90%;
+      padding: 20px;
+    }
+    .authTitle {
+      font-size: 20px;
+    }
+    .formGroup input {
+      font-size: 14px;
+    }
+    .authButton {
+      font-size: 14px;
+    }
+  }

@@ -58,8 +58,8 @@ export function Header() {
       </nav>
 
       <div className="authContainer">
-        <button onClick={() => navigate("/login")} className="signInButton">Sign In</button>
-        <button onClick={() => navigate("/register")} className="signUpButton">Sign Up</button>
+        <button onClick={() => navigate("/auth")} className="signInButton">Sign In</button>
+        <button onClick={() => navigate("/auth")} className="signUpButton">Sign Up</button>
       </div>
     </header>
   );

@@ -11,16 +11,16 @@ const slides = [
         title: "Join the Future of Education",
         button1: "Learn More",
         button2: "Sign Up",
-        link1: "/learn-more",
-        link2: "/register"
+        link1: "/auth",
+        link2: "/auth"
     },
     {
         image: hands,
         title: "Discover New Opportunities",
         button1: "Explore",
         button2: "Get Started",
-        link1: "/explore",
-        link2: "/get-started"
+        link1: "/auth",
+        link2: "/auth"
     },
 ];
 
