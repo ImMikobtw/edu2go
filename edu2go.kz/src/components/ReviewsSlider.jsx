@@ -46,14 +46,14 @@ export function ReviewsSlider() {
         }
     }, [reviews]);
 
-    if (loading) return <div className="reviewsSlider">Loading...</div>;
+    if (loading) return <div className="reviewsSlider loading">Loading...</div>;
     if (error) return <div className="reviewsSlider error">{error}</div>;
 
     return (
         <div className="reviewsSlider">
             <AnimatePresence mode="wait">
                 {reviews.length > 0 && (
-                    <motion.div 
+                    <motion.div
                         key={reviews[index].id}
                         className="reviewSlide"
                         initial={{ opacity: 0, y: 30 }}
